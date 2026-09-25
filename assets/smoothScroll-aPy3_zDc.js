@@ -1,1 +1,0 @@
-function e(e){let t=!1;return()=>{t||(t=!0,e())}}var t=()=>{};function n(n,r){let{Lenis:i,requestFrame:a,cancelFrame:o,reducedMotion:s=!1,coarsePointer:c=!1}=r;if(s||c||!i)return t;let l=new i,u=null,d=!0,f=e=>{d&&(l.raf(e),u=a(f))};return u=a(f),e(()=>{d=!1,u!==null&&o(u),l.destroy()})}export{n as init};
